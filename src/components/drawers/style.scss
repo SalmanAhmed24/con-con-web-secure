@@ -1,0 +1,41 @@
+.tools-drawer {
+  width: 100%;
+  .MuiPaper-root {
+    width: 80%;
+  }
+}
+.cus-tool-form {
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+}
+.cus-calendar {
+  z-index: 22222222;
+}
+#example-select-1 {
+  z-index: 57;
+}
+#example-select-2 {
+  z-index: 56;
+}
+#training-cat-drop {
+  z-index: 323;
+}
+.dollar {
+  position: relative;
+  &::after {
+    content: "$";
+    font-size: 16px;
+    position: absolute;
+    left: 6px;
+    top: 41px;
+    bottom: 0px;
+    margin: auto 0px;
+    z-index: 1;
+  }
+}
+.MuiTableHead-root {
+  z-index: 1 !important;
+}
+.display-none {
+  display: none;
+}
